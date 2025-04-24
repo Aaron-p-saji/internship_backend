@@ -93,6 +93,7 @@ CORS_ALLOW_ALL_ORIGINS = False
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # Your frontend origin
+    "http://localhost:3001",  # Your frontend origin
     # Add more origins as needed
 ]
 

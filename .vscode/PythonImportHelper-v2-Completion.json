@@ -1057,7 +1057,7 @@
         "kind": 5,
         "importPath": "hr_backend.settings",
         "description": "hr_backend.settings",
-        "peekOfCode": "CORS_ALLOW_ALL_ORIGINS = False\nCORS_ALLOWED_ORIGINS = [\n    \"http://localhost:3000\",  # Your frontend origin\n    # Add more origins as needed\n]\nWSGI_APPLICATION = \"hr_backend.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\nDATABASES = {\n    \"default\": {",
+        "peekOfCode": "CORS_ALLOW_ALL_ORIGINS = False\nCORS_ALLOWED_ORIGINS = [\n    \"http://localhost:3000\",  # Your frontend origin\n    \"http://localhost:3001\",  # Your frontend origin\n    # Add more origins as needed\n]\nWSGI_APPLICATION = \"hr_backend.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\nDATABASES = {",
         "detail": "hr_backend.settings",
         "documentation": {}
     },
@@ -1066,7 +1066,7 @@
         "kind": 5,
         "importPath": "hr_backend.settings",
         "description": "hr_backend.settings",
-        "peekOfCode": "CORS_ALLOWED_ORIGINS = [\n    \"http://localhost:3000\",  # Your frontend origin\n    # Add more origins as needed\n]\nWSGI_APPLICATION = \"hr_backend.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\nDATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.mysql\",",
+        "peekOfCode": "CORS_ALLOWED_ORIGINS = [\n    \"http://localhost:3000\",  # Your frontend origin\n    \"http://localhost:3001\",  # Your frontend origin\n    # Add more origins as needed\n]\nWSGI_APPLICATION = \"hr_backend.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\nDATABASES = {\n    \"default\": {",
         "detail": "hr_backend.settings",
         "documentation": {}
     },
